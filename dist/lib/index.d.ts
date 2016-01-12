@@ -20,12 +20,12 @@ declare module '__tss-lib/filterComparator' {
 }
 
 declare module '__tss-lib/extensions/stringExtensions' {
-    export function trimChar(trimChar: string): string;
-    export function trimCharLeft(trimChar: string): string;
-    export function trimCharRight(trimChar: string): string;
+    export function trimChar(value: string, trimChar: string): string;
+    export function trimCharLeft(value: string, trimChar: string): string;
+    export function trimCharRight(value: string, trimChar: string): string;
 }
 
 declare module '__tss-lib/extensions/numberExtensions' {
-    export function padLeft(totalWidth: number, paddingChar?: string): string;
+    export function padLeft(value: number, totalWidth: number, paddingChar?: string): string;
 }
 

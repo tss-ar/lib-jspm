@@ -1,3 +1,3 @@
-export declare function trimChar(trimChar: string): string;
-export declare function trimCharLeft(trimChar: string): string;
-export declare function trimCharRight(trimChar: string): string;
+export declare function trimChar(value: string, trimChar: string): string;
+export declare function trimCharLeft(value: string, trimChar: string): string;
+export declare function trimCharRight(value: string, trimChar: string): string;

@@ -1,25 +1,25 @@
-function trimChar(trimChar) {
+function trimChar(value, trimChar) {
     if (!trimChar) {
         trimChar = '\\s';
     }
     var regex = new RegExp("^" + trimChar + "+|" + trimChar + "+$", 'gm');
-    return this.replace(regex, '');
+    return value.replace(regex, '');
 }
 exports.trimChar = trimChar;
-function trimCharLeft(trimChar) {
+function trimCharLeft(value, trimChar) {
     if (!trimChar) {
         trimChar = '\\s';
     }
     var regex = new RegExp("^" + trimChar + "+", 'gm');
-    return this.replace(regex, '');
+    return value.replace(regex, '');
 }
 exports.trimCharLeft = trimCharLeft;
-function trimCharRight(trimChar) {
+function trimCharRight(value, trimChar) {
     if (!trimChar) {
         trimChar = '\\s';
     }
     var regex = new RegExp(trimChar + "+$", 'gm');
-    return this.replace(regex, '');
+    return value.replace(regex, '');
 }
 exports.trimCharRight = trimCharRight;
 

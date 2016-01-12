@@ -1,5 +1,5 @@
-function padLeft(totalWidth, paddingChar) {
-    return Array(totalWidth - String(this).length + 1).join(paddingChar || '0') + this;
+function padLeft(value, totalWidth, paddingChar) {
+    return Array(totalWidth - String(value).length + 1).join(paddingChar || '0') + value;
 }
 exports.padLeft = padLeft;
 

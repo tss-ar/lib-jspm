@@ -1,1 +1,1 @@
-export declare function padLeft(totalWidth: number, paddingChar?: string): string;
+export declare function padLeft(value: number, totalWidth: number, paddingChar?: string): string;
