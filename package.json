@@ -7,14 +7,15 @@
   "author": "Matias Ribichich",
   "license": "ISC",
   "description": "",
-  "directories": {
-    "lib": "dist"
-  },
-  "main": "index.js",
+  "main": "dist/lib/index.js",
   "format": "cjs",
   "registry": "jspm",
   "devDependencies": {
   },
   "dependencies": {
-  }
+  },
+
+    "typescript": {
+        "definition": "dist/lib/index.d.ts"
+    }
 }
